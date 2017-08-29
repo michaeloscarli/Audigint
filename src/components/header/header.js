@@ -1,3 +1,5 @@
+/* eslint-disable no-use-before-define */
+
 import React, { Component } from 'react';
 import strings from '../../strings/strings.json'
 class Header extends Component {

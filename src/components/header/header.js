@@ -8,11 +8,11 @@ class Header extends Component {
           <a href='/'> { strings.audigint } </a>
         </h3>
         <div style={ styles.navigation }>
-          <h3 style={ styles.navigationLink }></h3>
+          <h3 style={ styles.navigationLink }/>
             <a href='/'> { strings.messages } </a>
-          <h3 style={ styles.navigationLink }></h3>
+          <h3 style={ styles.navigationLink }/>
             <a href='/'> { strings.notifications } </a>
-          <h3 style={ styles.navigationLink }></h3>
+          <h3 style={ styles.navigationLink } />
             <a href='/'> { strings.my_account } </a>
         </div>
       </div>

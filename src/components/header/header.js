@@ -5,7 +5,7 @@ import strings from '../../strings/strings.json'
 class Header extends Component {
   render() {
     return (
-      <div style={ styles.appHeader } >
+      <div className='appHeader' style={ styles.appHeader } >
         <h3 style={ styles.headerText }>
           <a href='/'> { strings.audigint } </a>
         </h3>

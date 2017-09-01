@@ -2,6 +2,8 @@ import React, { Component } from 'react';
 import './App.css';
 import Header from './components/header/header';
 import Canvas from './components/canvas/canvas';
+import HomeHero from './components/homeHero/homeHero';
+import HomeContent from './components/homeContent/homeContent';
 
 class App extends Component {
   render() {
@@ -9,9 +11,8 @@ class App extends Component {
       <div className="App">
         <Header/>
         <Canvas>
-          <p className="App-intro">
-            To get started, edit <code>src/App.js</code> and save to reload.
-          </p>
+          <HomeHero/>
+          <HomeContent/>
         </Canvas>
       </div>
     );

@@ -18,7 +18,9 @@ export default class Canvas extends Component {
 
 const styles = {
   canvas: {
+    display: 'flex',
     flex: 1,
-    alignSelf: 'stretch'
+    alignSelf: 'stretch',
+    flexDirection: 'column'
   }
 };

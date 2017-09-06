@@ -1,13 +1,16 @@
 /* eslint-disable no-use-before-define */
 
 import React, { Component } from 'react';
-import strings from '../../strings/strings.json'
-class Header extends Component {
+import strings from '../../strings/strings.json';
+import { fetchData } from '../../state/actions';
+import { connect } from 'react-redux';
+import { bindActionCreators } from 'redux';
+export class Header extends Component {
   render() {
     return (
       <div className='appHeader' style={ styles.appHeader } >
         <h3 style={ styles.headerText }>
-          <a href='/'> { strings.audigint } </a>
+          <a onClick={ this.props.fetchData } > { strings.audigint } </a>
         </h3>
         <div style={ styles.navigation }>
           <h3 style={ styles.navigationLink }/>
@@ -20,6 +23,8 @@ class Header extends Component {
       </div>
     );
   }
+
+
 }
 
 const styles = {
@@ -48,4 +53,6 @@ const styles = {
   }
 };
 
-export default Header;
+const mapDispatchToProps = (dispatch) => bindActionCreators({ fetchData }, dispatch);
+
+export default connect(null, mapDispatchToProps)(Header);

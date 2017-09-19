@@ -14,6 +14,8 @@ export default class HomeContent extends Component {
 const styles = {
   homeHero: {
     backgroundColor: '#7f8c8d',
-    display: 'flex'
+    display: 'flex',
+    flex: 5,
+    minHeight: '410px'
     }
 };

@@ -3,7 +3,8 @@ const mockSession1 = {
   time: '12:00 AM',
   location: `Brian's house`,
   role: 'Lead Vox',
-  link: 'Some link that goes to the event detail view'
+  link: 'Some link that goes to the event detail view',
+  title: 'Title A'
 };
 
 const mockSession2 = {
@@ -11,7 +12,8 @@ const mockSession2 = {
   time: '8:00 PM',
   location: `The Cutting Room`,
   role: 'Lead Vox',
-  link: 'Some link that goes to the event detail view'
+  link: 'Some link that goes to the event detail view',
+  title: 'Title B'
 };
 
 const mockSession3 = {
@@ -19,7 +21,8 @@ const mockSession3 = {
   time: '4:30 PM',
   location: `Spin City Records`,
   role: 'Lead Vox',
-  link: 'Some link that goes to the event detail view'
+  link: 'Some link that goes to the event detail view',
+  title: 'Title C'
 };
 
 const mockSession4 = {
@@ -27,7 +30,8 @@ const mockSession4 = {
   time: '1:45 PM',
   location: `Brian's house`,
   role: 'Lead Vox',
-  link: 'Some link that goes to the event detail view'
+  link: 'Some link that goes to the event detail view',
+  title: 'Title D'
 };
 
 export const mockSessions = [mockSession1, mockSession2, mockSession3, mockSession4];

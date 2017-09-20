@@ -33,10 +33,14 @@ export function SessionCard(props) {
 const styles = {
   sessionCard: {
     backgroundColor: 'white',
-    height: '175px',
-    width: '275px',
     display: 'flex',
-    flexDirection: 'column'
+    height: 175,
+    flex: 1,
+    flexDirection: 'column',
+    borderRadius: '3px',
+    borderWidth: '2px',
+    marginLeft: '25px',
+    marginRight: '25px'
   },
   cardHeader: {
     display: 'flex',

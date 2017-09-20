@@ -18,6 +18,14 @@ div[data-reactroot] {
   height: 100%;
 }
 
-.slider-frame, .slider-list{
+.slider-frame, .slider-list {
   height: 100% !important;
+  display: flex !important;
+}
+
+.slider-slide {
+  position: static !important;
+  top: auto !important;
+  left: auto !important;
+  display: flex !important;
 }
